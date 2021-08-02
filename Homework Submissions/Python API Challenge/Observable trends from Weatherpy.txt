@@ -1,0 +1,5 @@
+WeatherPY observations 
+
+1. Temperature is impacted by changes in Latitude (see notebook for correlations).  The further away from 0 latitude the temperature decreases 
+2. Wind Speed is not impacted by changes in latitude.
+3. Cloudiness is not impacted by changes in lattitude 
