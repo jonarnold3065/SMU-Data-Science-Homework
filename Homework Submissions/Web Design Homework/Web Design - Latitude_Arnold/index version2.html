@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <title>Bootstrap Demo</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    
+        <!-- Bring in our bootstrap stylesheet -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@4.5.2/dist/minty/bootstrap.min.css">
+    
+        <!-- Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+        <script src=" https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+        <link rel="stylesheet " href="style.css ">
+       
+
+        <style>
+            h1{
+                font: 20%;
+                color: teal;
+                text-shadow: 0px 0px 4px red;
+            }
+/* 
+            div.container2 {
+                border: 2px solid;
+                resize: both;
+                overflow: auto;
+
+            } */
+
+            ul.navbar-nav li a:hover:not(.active){
+                background-color: teal; 
+                color:white; 
+                font-weight:bold; 
+                font-family:Georgia, 'Times New Roman', Times, serif;
+                text-shadow: 0px 0px 7px red;
+            }
+
+            a.dropdown-item { 
+                color:black; 
+                font-weight:bold; 
+                font-family:Georgia, 'Times New Roman', Times, serif;
+            }
+
+            li.nav-item {
+                color:red; 
+                font-weight:bold; 
+                font-family:Georgia, 'Times New Roman', Times, serif;
+            }
+         
+            a.navbar-brand {
+                background-color: teal; 
+                color:white; 
+                display:inline-block; 
+                font-style: normal;
+                text-shadow: 0px 0px 7px red;
+                
+                width: 100x;
+                border: 5px solid teal;
+                padding: 0.5rem 1rem;
+                margin: 5px;
+                font-weight: bold;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+
+            }
+
+           
+        </style>
+    </head>
+    
+    <body style="background-color: gray;">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <div class="container-fluid">
+            <a class="navbar-brand" href="index version2.html">Home</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+    
+                <div class="collapse navbar-collapse" id="navbarColor03">
+                    <ul class="navbar-nav ml-auto">
+                      
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Plots
+                            </a>
+                            <div class="dropdown-menu">
+                              <a class="dropdown-item" href="index version2.html">Home</a>
+                              <a class="dropdown-item" href="temperature.html">Max Temperature</a>
+                              <a class="dropdown-item" href="humidity.html">Humidity</a>
+                              <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+                              <a class="dropdown-item" href="wind_speed.html">Wind Speed</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="comparisons.html">Comparison</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="data.html">Data</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    
+             <!-- nested bootstrap grids below -->
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7">
+                    <br>
+                    <br>
+                    <!-- containers -->
+                    <div class="container" style="background-color: white;">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <br>
+                                <h1>Summary: Latitude vs X</h1>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="row">
+                            <div class="col-md-8">
+                                <img  src="Resources/assets/images/Fig1.png" height="100%" width="75%">
+                            </div>
+                            <div class="col-md-12">
+                                <br>
+                                <p >This site is comprised of information developed from an exploratory data anlaysis.  It includes an analysis of Temperature, Humidity, Cloudiness and Wind Speed as they relate to Latitude.
+                                    venison pork loin. Shank alcatra landjaeger capicola, bresaola meatball biltong pastrami tenderloin beef. T-bone pork rump strip steak chicken kevin ham frankfurter.</p>
+                               <br>
+                               <br>
+                                    <p>The visualizations on the right will take you to a more in depth analysis of each aspect of the impact that Latitude has on the various weather conditions.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <br>
+                    <br>
+                    <div class="container" style="background-color: white;">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <br>
+                                <h1>Visualizations</h1>
+                            </div>
+                        </div>
+                        <hr>
+                        <br>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <!-- ******should be using my week 6 images for the images below!!!! -->
+                                <a href="index version2.html">
+                                <img src="Resources/assets/images/Fig1.png" height="100%" width="100%" >
+                                </a>    
+                            </div>
+                            <div class="col-md-6">
+                                <a href="humidity.html">
+                                <img src="Resources/assets/images/Fig2.png" height="100%" width="100%">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <a href="cloudiness.html">
+                                <img src="Resources/assets/images/Fig3.png" height="100%" width="100%">
+                                </a>
+                            </div>
+                            <div class="col-md-6">
+                                <a href="wind_speed.html">
+                                <img src="Resources/assets/images/Fig4.png" height="100%" width="100%">
+                                </a>
+                        </div>
+                        <br>
+                        <br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </body>
+    
+</html>
+    
+        
