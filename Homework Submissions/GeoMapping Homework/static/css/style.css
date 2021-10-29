@@ -1,0 +1,55 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+#map {
+  position: relative;
+  border: 1px solid black;
+  border-radius: 8px;
+  height: 700px;  /* or as desired */
+  width: 100%;  /* This means "100% of the width of its container", the .col-md-8 */
+  border-color: red;
+  padding-bottom: 25px;
+}
+
+p {
+  font-weight: bold;
+}
+
+h3{
+  background-color: rgb(178, 178, 201);
+  border-color: crimson;
+  /* border-radius: 5px 50px 30px 5px; */
+}
+
+.rtnColor{
+  opacity: 50;
+}
+
+.legend {
+  padding: 10px;
+  line-height: 18px;
+  color: #555;
+  background-color: rgba(255, 255, 255, 0.61);
+  border-radius: 5px;
+  font-weight: bold;
+
+}
+
+.legend i {
+  width: 18px;
+  height: 18px;
+  float: left;
+  margin-right: 8px;
+  opacity: 0.7;
+}
+
+.row {
+  padding-left: 10px;
+}
