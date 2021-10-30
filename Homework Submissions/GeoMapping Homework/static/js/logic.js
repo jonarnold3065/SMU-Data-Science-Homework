@@ -7,7 +7,7 @@ var timeframe = "all_week.geojson";
 var url = baseURL + timeframe;
 
 // geojson
-var tectonic_boundary_url = "./static/data/PB2002_boundaries.json";
+var tectonic_boundary_url = "static/data/PB2002_boundaries.json";
 
 $(document).ready(function() {
  // add filter option for time frame????
